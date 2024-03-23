@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact me</title>
+        <link rel="stylesheet" href="Contact_me_style.css">
+        <link rel="stylesheet" href="navigation_bar.css">
+    </head>
+    <body>
+        <ul class="menu">
+            <li>
+              <a href="homepage.html">Homepage</a>
+            </li>
+            <li>
+              <a href="My portfolio.html">My portfolio</a>
+            </li>
+            <li>
+              <a href="My skills.html">My skills</a>
+            </li>
+            <li>
+              <a href="Contact me.html">Contact me</a>
+            </li>
+        
+         <div id="content">  
+            <h1>  If you want to contact me, please write down below form. </h1>
+
+          <div id="picture">
+            <img src="contact_me.png" alt="picture" width="100">
+          </div>
+    
+         <form>
+              <div id="submitter_info">  
+              <input type="text" placeholder="Full name" name="name">
+              <input type="text" placeholder="Phone number" name="PhoneNumber">
+              <input type="text" placeholder="e-mail" name="email">
+                  <div id="detail">
+                   <textarea placeholder="Inquiry details" name="details" style="width: 450px; height: 200px;"></textarea>
+                    <button onclick="showMessage()">Submit</button>
+                 </div>
+              </div>
+          </form>
+         <script>
+            function showMessage() {
+               alert("Sorry, the backend is still under development! Please wait a little longer to use this feature! ");
+            }
+          </script>
+
+        </body>    
+    </html>
+    
