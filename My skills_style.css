@@ -1,0 +1,19 @@
+
+ul.proficiency{
+    display: flex;
+    flex-wrap: wrap;
+    font-style: italic;
+    color: rgb(240, 104, 149);
+    font-weight: bolder;
+}
+li.proficiency {
+    flex: 0 1 calc(33.33% - 20px); 
+    margin: 5px; 
+    padding: 10px;
+    box-sizing: border-box; 
+}
+@media (max-width: 600px) {
+    skill {
+      width: 15%;
+    }
+}
