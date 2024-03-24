@@ -3,16 +3,6 @@
   margin: 0;
 }
   
-  h1{
-    color: rgb(242, 66, 124);
-    background-color: rgb(246, 212, 217);
-    text-align: center;
-    height : 80px;
-    margin-bottom: 25px;
-    margin-top: 35px;
-    padding-top: 20px;
-
-}
 #picture{
   padding: 5px;
 }
@@ -29,29 +19,36 @@ h1, h2, h3{
 
 
 h1 {
+  color: rgb(242, 66, 124);
+  background-color: rgb(246, 212, 217);
+  text-align: center;
+  height : 60%;
+  margin-bottom: 25px;
+  margin-top: 35px;
   padding-top: 20px;
+  padding-top: 15px;
   font-size: 2em; /* 32px */
 }
 
 
 h2 {
-  font-size: 1.625em; /* 26px */
+  font-size: 1.625em; 
   color: rgb(240, 104, 149);
   padding: 10px;
 }
 
 
 p {
-  font-size: 1.125em; /* 18px */
+  font-size: 1.125em; 
   margin-top: 10px;
   margin-bottom: 30px;
   margin-left: 7.5%; /* 15% */
-  margin-right: 7.5%; /* 15% */
+  margin-right: 7.5%; 
   padding: 5px;
 }
 
 h3 {
-  font-size: 1.5em; /* 24px */
+  font-size: 1.5em; 
   color: rgb(237, 123, 161);
   padding: 5px;
 }
@@ -59,20 +56,20 @@ h3 {
 /* when the page size becomes small */
 @media (max-width: 600px) {
   h1 {
-    font-size: 1.5em; /* 24px */
+    font-size: 1.5em;
   }
 
   h2 {
-    font-size: 1.25em; /* 20px */
+    font-size: 1.25em;
   }
 
   p {
-    font-size: 1em; /* 16px */
-    margin-left: 5%; /* 10% */
-    margin-right: 5%; /* 10% */
+    font-size: 1em;
+    margin-left: 5%;
+    margin-right: 5%; 
   }
 
   h3 {
-    font-size: 1.125em; /* 18px */
+    font-size: 1.125em;
   }
 }
