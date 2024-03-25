@@ -1,0 +1,19 @@
+#project_link {
+  
+  font-style: italic;
+  color: rgb(237, 123, 161);
+  font-weight: bolder;
+  transition: color 0.3s ease; 
+  text-shadow: 0 0 10px rgba(255, 255, 0, 0.8), 0 0 20px rgba(255, 255, 0, 0.8), 0 0 30px rgba(255, 255, 0, 0.8), 0 0 40px rgba(255, 255, 0, 0.8);
+  font-size: medium;
+
+}
+
+#project_link:visited {
+  
+  color: skyblue;
+}
+
+#project_link:hover {
+  color: rgb(135, 44, 135); 
+}
